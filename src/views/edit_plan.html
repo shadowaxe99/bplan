@@ -1,0 +1,41 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Business Plan</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Business Plan</h1>
+        <form id="edit-plan-form">
+            <div class="form-group">
+                <label for="plan-title">Title</label>
+                <input type="text" id="plan-title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="plan-description">Description</label>
+                <textarea id="plan-description" name="description" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="plan-industry">Industry</label>
+                <input type="text" id="plan-industry" name="industry" required>
+            </div>
+            <div class="form-group">
+                <label for="plan-financials">Financials</label>
+                <textarea id="plan-financials" name="financials" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="plan-market-analysis">Market Analysis</label>
+                <textarea id="plan-market-analysis" name="market_analysis" required></textarea>
+            </div>
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/business_plan.js"></script>
+</body>
+</html>
+```
